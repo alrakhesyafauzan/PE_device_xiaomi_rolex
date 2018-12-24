@@ -41,4 +41,8 @@
     <allow-in-power-save package="com.qualcomm.qti.autoregistration" />
     <allow-in-power-save package="com.qualcomm.qti.server.wigigapp" />
     <allow-in-power-save package="com.qualcomm.qti.StatsPollManager" />
+
+    <!-- These telephony applications need access to non-[System]SDK APIs --> 
+    <hidden-api-whitelisted-app package="com.qualcomm.wfd.client" />
+    <hidden-api-whitelisted-app package="com.qualcomm.wfd.service" />
 </config>

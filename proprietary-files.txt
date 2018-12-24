@@ -2487,3 +2487,29 @@ vendor/lib/libwvhidl.so|88ebba6280bd85e5bfea18efe2f685b0e1fb6f50
 
 # Wi-Fi - from tissot - OPR1.170623.026
 vendor/bin/wcnss_service|28b35124227c32964479d9a320180f75caa21142
+
+# Wi-Fi Display
+-priv-app/WfdService/WfdService.apk
+-framework/WfdCommon.jar
+bin/wfdservice 
+etc/init/wfdservice.rc
+etc/wfdconfig.xml
+etc/wfdconfigsink.xml 
+lib/com.qualcomm.qti.wifidisplayhal@1.0.so
+lib/libFileMux.so 
+lib/extractors/libmmparser.so
+lib/libmmparser_lite.so
+lib64/libFileMux.so 
+lib64/libmmparser_lite.so
+lib64/extractors/libmmparser.so 
+vendor/bin/wifidisplayhalservice 
+vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc 
+vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so 
+vendor/lib/libwfdcommonutils_proprietary.so
+vendor/lib/libwfdhaldsmanager.so 
+vendor/lib/libwfdhdcpcp.so
+vendor/lib/libwfdhdcpcp.so 
+vendor/lib/libwfdmmservice.so
+vendor/lib/libwfdmodulehdcpsession.so 
+vendor/lib64/libwfdhdcpcp.so
+vendor/lib64/libwfdhdcpcp.so
